@@ -5,7 +5,7 @@ const connectDB = require("./database");
 
 // Import routes
 const placeRoutes = require("./routes/placeRoutes");
-const auth = require("./routes/auth"); // 👈 added this line
+const auth = require("./routes/auth");
 
 const app = express();
 
@@ -15,11 +15,10 @@ app.use(express.json());
 
 // Routes
 app.use("/api/places", placeRoutes);
-app.use("/api/auth", auth); // 👈 added this line
+app.use("/api/auth", auth);
 
 // Connect database
 connectDB();
 
-// Start server
-const PORT = 3001;
-app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
+// ✅ Export the app instead of starting the server
+module.exports = app;
