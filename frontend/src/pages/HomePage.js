@@ -9,7 +9,7 @@ const HomePage = () => {
 
   // 🔹 Fetch all places from backend
   useEffect(() => {
-    fetch("http://localhost:3001/api/places")
+    fetch(`${process.env.REACT_APP_API_URL}/api/places`)
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch places");
         return res.json();
@@ -36,7 +36,7 @@ const HomePage = () => {
   const handleClick = async (mongoId) => {
     try {
       const response = await fetch(
-        `http://localhost:3001/api/places/${mongoId}`
+        `${process.env.REACT_APP_API_URL}/api/places/${mongoId}`
       );
       if (!response.ok) throw new Error("Failed to fetch place info");
 
@@ -69,7 +69,7 @@ const HomePage = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:3001/api/places/${selectedPlace._id}/comments`,
+        `${process.env.REACT_APP_API_URL}/api/places/${selectedPlace._id}/comments`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

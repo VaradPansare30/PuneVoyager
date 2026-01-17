@@ -9,7 +9,7 @@ const PlacesList = ({ searchTerm = "" }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:3001/api/places")
+    fetch(`${process.env.REACT_APP_API_URL}/api/places`)
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch places");
         return res.json();

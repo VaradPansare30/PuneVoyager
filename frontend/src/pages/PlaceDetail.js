@@ -12,7 +12,7 @@ const PlaceDetail = () => {
     const fetchPlace = async () => {
       try {
         // ✅ CORRECT backend route
-        const res = await fetch(`http://localhost:3001/api/places/${id}`);
+        const res = await fetch(`${process.env.REACT_APP_API_URL}/api/places/${id}`);
         if (!res.ok) throw new Error("Place not found");
 
         const data = await res.json();
@@ -80,7 +80,7 @@ const PlaceDetail = () => {
     try {
       // ✅ CORRECT backend route
       const res = await fetch(
-        `http://localhost:3001/api/places/${id}/comments`,
+        `${process.env.REACT_APP_API_URL}/api/places/${id}/comments`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
