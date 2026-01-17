@@ -1,7 +1,7 @@
 // frontend/src/data/places.js
 const placesData = {
   1: { name: "Aga Khan Palace", image: "/images/aga_khan_palace.jpg" },
-  2: { name: "Shaniwar Wada", image: "/images/shaniwar_wada.jpg" },
+  2: { name: "Chatushrungi Mata Temple", image: "/images/chatushrungi_mata_temple.jpg" },
   3: { name: "Dagadusheth Ganapati Temple", image: "/images/dagadusheth_ganapati.jpg" },
   4: { name: "Dehu Gatha Temple", image: "/images/Dehu_Gatha_Temple.jpg" },
   5: { name: "Guruji Talim Ganapati Temple", image: "/images/guruji_talim_ganapati.jpg" },
