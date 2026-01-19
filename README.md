@@ -68,8 +68,8 @@ The project follows a modular full-stack architecture with a clear separation be
 │   ├── package.json
 │   └── package-lock.json
 │
-└── README.md```
-
+└── README.md
+```
 ### 🧠 Technical Highlights:
 - Implemented user authentication to restrict actions such as commenting
 - Designed and developed RESTful APIs for places, users, and comments
