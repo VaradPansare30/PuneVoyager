@@ -86,7 +86,7 @@ This project uses environment variables to manage configuration and sensitive in
 🔹Frontend:  
 - REACT_APP_API_URL:   
   Specifies the base URL of the backend API that the React frontend communicates with.  
-  This allows seamless switching between development and production environments.
+  This allows seamless switching between development and production environments.  
 🔹Backend    
 - MONGO_URI:        
   MongoDB connection string used to connect the backend server to the database.    
