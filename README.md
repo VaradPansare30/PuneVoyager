@@ -86,13 +86,13 @@ This project uses environment variables to manage configuration and sensitive in
 🔹Frontend:  
 - REACT_APP_API_URL:   
   Specifies the base URL of the backend API that the React frontend communicates with.  
-  This allows seamless switching between development and production environments.  
-🔹Backend  
-- MONGO_URI:      
-  MongoDB connection string used to connect the backend server to the database.  
-- PORT:    
-  Defines the port on which the backend server runs.  
-Using environment-based configuration helps maintain security, scalability, and clean separation between development and production setups.  
+  This allows seamless switching between development and production environments.
+🔹Backend    
+- MONGO_URI:        
+  MongoDB connection string used to connect the backend server to the database.    
+- PORT:      
+  Defines the port on which the backend server runs.    
+Using environment-based configuration helps maintain security, scalability, and clean separation between development and production setups.    
 
 ### 🌐 Live Deployment:  
 Live Application: https://pune-voyager.vercel.app/  
