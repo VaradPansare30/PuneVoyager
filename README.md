@@ -23,7 +23,7 @@ The project follows a modular full-stack architecture with a clear separation be
 🔹Deployment: Render (backend) & Vercel (frontend)
 
 ### 📁 Project Structure:
-PuneVoyager/
+```PuneVoyager/
 ├── backend/                     # Backend (Node.js + Express)
 │   ├── library/                 # Utility / helper functions
 │   ├── models/                  # Mongoose schemas
@@ -68,7 +68,7 @@ PuneVoyager/
 │   ├── package.json
 │   └── package-lock.json
 │
-└── README.md
+└── README.md```
 
 ### 🧠 Technical Highlights:
 - Implemented user authentication to restrict actions such as commenting
