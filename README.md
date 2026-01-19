@@ -24,49 +24,49 @@ The project follows a modular full-stack architecture with a clear separation be
 
 ### 📁 Project Structure:
 PuneVoyager/
-├── backend/           # Backend (Node.js + Express)
-│ ├── library/         # Utility / helper functions
-│ ├── models/          # Mongoose schemas
-│ │ ├── Place.js
-│ │ └── User.js
-│ ├── routes/          # API route definitions
-│ ├── app.js           # Express app configuration
-│ ├── database.js      # Database connection setup
-│ ├── index.js         # Server entry point
-│ ├── seedPlaces.js    # Script to seed place data
-│ ├── package.json
-│ └── package-lock.json
+├── backend/                     # Backend (Node.js + Express)
+│   ├── library/                 # Utility / helper functions
+│   ├── models/                  # Mongoose schemas
+│   │   ├── Place.js
+│   │   └── User.js
+│   ├── routes/                  # API route definitions
+│   ├── app.js                   # Express app configuration
+│   ├── database.js              # Database connection setup
+│   ├── index.js                 # Server entry point
+│   ├── seedPlaces.js            # Script to seed place data
+│   ├── package.json
+│   └── package-lock.json
 │
-├── frontend/          # Frontend (React.js)
-│ ├── public/
-│ │ ├── images/
-│ │ ├── index.html
-│ │ ├── favicon.ico
-│ │ ├── manifest.json
-│ │ └── robots.txt
-│ │
-│ ├── src/
-│ │ ├── components/    # Reusable UI components
-│ │ │ ├── Navbar.js
-│ │ │ ├── PlaceCard.js
-│ │ │ └── PlacesList.js
-│ │ │
-│ │ ├── pages/         # Application pages
-│ │ │ ├── HomePage.js
-│ │ │ ├── Login.js
-│ │ │ ├── Signup.js
-│ │ │ └── PlaceDetail.js
-│ │ │
-│ │ ├── data/
-│ │ │ └── places.js
-│ │ │
-│ │ ├── App.js
-│ │ ├── index.js
-│ │ ├── App.css
-│ │ └── index.css
-│ │
-│ ├── package.json
-│ └── package-lock.json
+├── frontend/                    # Frontend (React.js)
+│   ├── public/
+│   │   ├── images/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   │
+│   ├── src/
+│   │   ├── components/          # Reusable UI components
+│   │   │   ├── Navbar.js
+│   │   │   ├── PlaceCard.js
+│   │   │   └── PlacesList.js
+│   │   │
+│   │   ├── pages/               # Application pages
+│   │   │   ├── HomePage.js
+│   │   │   ├── Login.js
+│   │   │   ├── Signup.js
+│   │   │   └── PlaceDetail.js
+│   │   │
+│   │   ├── data/
+│   │   │   └── places.js
+│   │   │
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── App.css
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── package-lock.json
 │
 └── README.md
 
@@ -100,5 +100,4 @@ This project is deployed to demonstrate real-world full-stack architecture and a
 
 ### 📌 Notes:
 This project follows a modular frontend-backend architecture commonly used in scalable full-stack web applications.
-
 ⭐ If you like this project, feel free to star the repository!
